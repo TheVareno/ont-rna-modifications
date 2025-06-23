@@ -375,6 +375,15 @@ def get_result_table(modification: str, dataset: str, test: str):
         "Median Abs. Dev.":     [0.000204, 0.0849, 0.0201, 0.0091, 0.1279, 0.0949]
     }
     
+    m5c_ds1_alter = {
+        "Mean":                 [0.000325, 0.050544, 0.004021, 0.537162, 0.000254, 0.528513],
+        "Std. Dev.":            [0.001093, 0.183083, 0.035666, 0.003772, 0.338180, 0.006774],
+        "Median":               [0.000414, 0.077680, 0.004461, 0.706762, 0.000192, 0.616065],
+        "Median Abs. Dev.":     [0.000204, 0.234394, 0.011458, 0.002301, 0.111298, 0.005194]
+    }
+    
+    
+    
     m5c_ds2 = {
         "Mean":                 [ 0.118532, 0.153934, 0.152104, 0.320296, 0.040490, 0.853916],
         "Std. Dev.":            [ 0.658567, 0.824884, 0.985183, 0.462396, 0.712292, 0.367311],
@@ -414,7 +423,7 @@ def get_result_table(modification: str, dataset: str, test: str):
     }
     
     if modification == 'm5C' and dataset == 'ds1' and test == 'kw-mw': 
-        return m5c_ds1
+        return m5c_ds1_alter
 
     elif modification == 'm5C' and dataset == 'ds2' and test == 'kw-mw': 
         return m5c_ds2 
