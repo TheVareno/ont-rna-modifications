@@ -253,7 +253,7 @@ def arrow_plot_flanking_C(main_df_ds1: pd.DataFrame, main_df_ds2: pd.DataFrame):
         'UC': '#FFA800', 
     }
 
-    fig = plt.figure(figsize=(8, 6))
+    fig = plt.figure(figsize=(8, 5))
 
     for _, row in df.iterrows():
         x_start = row['mu_can']
