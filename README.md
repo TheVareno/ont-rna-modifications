@@ -10,7 +10,7 @@ This project investigates how RNA modifications, specifically **5-methylcytosine
 
 - The raw RNA sequencing data was generated using the ONT R9 pore chemistry.
 - Separate datasets were used for each modification type (m5C and Ψ) to ensure accurate comparative analysis.
-- Various statistical and signal-processing techniques were applied to characterize how modifications alter current signal profiles.
+- Various statistical analysis and machine learning techniques were applied to characterize how modifications alter current signal profiles.
 
 
 ## Project Structure
